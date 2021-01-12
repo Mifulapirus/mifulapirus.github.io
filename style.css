@@ -1,21 +1,73 @@
-.mybox1 {
-    background-color: tomato;
-    min-height: 100px;
-    margin: 5px 10px;
-    padding: 10px;
-}
+body, html{
+    height: 100%;
+} 
 
-.main-content{
+.bg {
+    position: relative;
+  }
+  .bg::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; 
+    height: 100vh;
     background-color:black;
     background-image: url('https://mdbootstrap.com/img/new/slides/041.jpg');
-    height: 100vh;
+    filter: brightness(20%);
+    /*background-blend-mode: ;*/
+    
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center right;
+  }
+  .bg-inside {
+    /* This will make it stack on top of the ::before */
+    position: relative;
+  } 
+
+
+  .content{
+    color: rgb(209, 209, 211);
+    padding-top: 15%;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+    /*min-height: 500px;
+    margin-top: auto;
+    margin-bottom: auto;*/
 }
 
-.content{
-    color: lightgray;
-    
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
