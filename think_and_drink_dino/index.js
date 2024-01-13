@@ -1058,7 +1058,7 @@
         TEXT_X: 0,
         TEXT_Y: 13,
         TEXT_WIDTH: 191,
-        TEXT_HEIGHT: 11,
+        TEXT_HEIGHT: 30,
         RESTART_WIDTH: 36,
         RESTART_HEIGHT: 32
     };
@@ -1571,8 +1571,8 @@
         SPEED_DROP_COEFFICIENT: 3,
         SPRITE_WIDTH: 262,
         START_X_POS: 50,
-        WIDTH: 44,
-        WIDTH_DUCK: 59
+        WIDTH: 71,
+        WIDTH_DUCK: 72
     };
 
 
@@ -1582,13 +1582,13 @@
      */
     Trex.collisionBoxes = {
         DUCKING: [
-            new CollisionBox(1, 18, 55, 25)
+            new CollisionBox(1, 18, 71, 25)
         ],
         RUNNING: [
             new CollisionBox(22, 0, 17, 16),
-            new CollisionBox(1, 18, 30, 9),
+            new CollisionBox(1, 18, 60, 9),
             new CollisionBox(10, 35, 14, 8),
-            new CollisionBox(1, 24, 29, 5),
+            new CollisionBox(1, 24, 60, 5),
             new CollisionBox(5, 30, 21, 4),
             new CollisionBox(9, 34, 15, 4)
         ]
@@ -1620,23 +1620,26 @@
      */
     Trex.animFrames = {
         WAITING: {
-            frames: [44, 0],
+            //frames: [44, 0],
+            frames: [0, 142],
             msPerFrame: 1000 / 3
         },
         RUNNING: {
-            frames: [88, 132],
+            frames: [142, 142+71],
             msPerFrame: 1000 / 12
         },
         CRASHED: {
-            frames: [220],
+            //frames: [220],
+            frames: [284],
             msPerFrame: 1000 / 60
         },
         JUMPING: {
-            frames: [0],
+            frames: [71],
             msPerFrame: 1000 / 60
         },
         DUCKING: {
-            frames: [264, 323],
+            //frames: [264, 323],
+            frames: [426, 426+72],
             msPerFrame: 1000 / 8
         }
     };
@@ -2171,7 +2174,7 @@
      * @enum {number}
      */
     Cloud.config = {
-        HEIGHT: 14,
+        HEIGHT: 36,
         MAX_CLOUD_GAP: 400,
         MAX_SKY_LEVEL: 30,
         MIN_CLOUD_GAP: 100,
