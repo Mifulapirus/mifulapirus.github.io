@@ -487,9 +487,9 @@
                 this.containerEl.style.webkitAnimation = 'intro .4s ease-out 1 both';
                 this.containerEl.style.width = this.dimensions.WIDTH + 'px';
 
-                // if (this.touchController) {
-                //     this.outerContainerEl.appendChild(this.touchController);
-                // }
+                if (this.touchController) {
+                     this.outerContainerEl.appendChild(this.touchController);
+                }
                 this.playing = true;
                 this.activated = true;
             } else if (this.crashed) {
