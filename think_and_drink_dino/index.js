@@ -174,16 +174,16 @@
             STAR: { x: 645, y: 2 }
         },
         HDPI: {
-            CACTUS_LARGE: { x: 634, y: 2 },
-            CACTUS_SMALL: { x: 433, y: 2 },
-            CLOUD: { x: 164, y: 2 },
-            HORIZON: { x: 2, y: 103 },
-            MOON: { x: 925, y: 2 },
-            PTERODACTYL: { x: 256, y: 2 },
+            CACTUS_LARGE: { x: 664, y: 2 },
+            CACTUS_SMALL: { x: 451, y: 2 },
+            CLOUD: { x: 171, y: 2 },
+            HORIZON: { x: 2, y: 108 },
+            MOON: { x: 968, y: 2 },
+            PTERODACTYL: { x: 266, y: 2 },
             RESTART: { x: 2, y: 2 },
-            TEXT_SPRITE: { x: 1252, y: 2 },
-            TREX: { x: 1621, y: 2 },
-            STAR: { x: 1231, y: 2 }
+            TEXT_SPRITE: { x: 1309, y: 2 },
+            TREX: { x: 1696, y: 2 },
+            STAR: { x: 1288, y: 2 }
         }
     };
 
@@ -1571,7 +1571,7 @@
         SPEED_DROP_COEFFICIENT: 3,
         SPRITE_WIDTH: 262,
         START_X_POS: 50,
-        WIDTH: 71,
+        WIDTH: 70,
         WIDTH_DUCK: 72
     };
 
