@@ -174,16 +174,16 @@
             STAR: { x: 645, y: 2 }
         },
         HDPI: {
-            CACTUS_LARGE: { x: 652, y: 2 },
-            CACTUS_SMALL: { x: 446, y: 2 },
-            CLOUD: { x: 166, y: 2 },
-            HORIZON: { x: 2, y: 104 },
-            MOON: { x: 954, y: 2 },
-            PTERODACTYL: { x: 260, y: 2 },
+            CACTUS_LARGE: { x: 634, y: 2 },
+            CACTUS_SMALL: { x: 433, y: 2 },
+            CLOUD: { x: 164, y: 2 },
+            HORIZON: { x: 2, y: 103 },
+            MOON: { x: 925, y: 2 },
+            PTERODACTYL: { x: 256, y: 2 },
             RESTART: { x: 2, y: 2 },
-            TEXT_SPRITE: { x: 1294, y: 2 },
-            TREX: { x: 1678, y: 2 },
-            STAR: { x: 1276, y: 2 }
+            TEXT_SPRITE: { x: 1252, y: 2 },
+            TREX: { x: 1621, y: 2 },
+            STAR: { x: 1231, y: 2 }
         }
     };
 
